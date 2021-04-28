@@ -1,0 +1,12 @@
+(module OLED_Cutout (layer F.Cu) (tedit 5FE8ADC1)
+  (fp_text reference REF** (at 0.25 10.05) (layer Eco2.User) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value OLED_Cutout (at 0 -15.24) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -9.22528 -30.00248) (end 9.82472 -30.00248) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 7 6.5) (end 7 -6.5) (layer Dwgs.User) (width 0.15))
+  (pad 1 smd roundrect (at 0 0 180) (size 16 62) (layers F.Cu F.Mask) (roundrect_rratio 0.063))
+  (pad 1 smd roundrect (at 0 0 180) (size 16 62) (layers B.Cu B.Mask) (roundrect_rratio 0.063))
+)

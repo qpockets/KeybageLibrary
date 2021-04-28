@@ -1,0 +1,12 @@
+(module Stab_cutout (layer F.Cu) (tedit 5FE8B06D)
+  (fp_text reference REF** (at 0.25 10.05) (layer Eco2.User) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Stab_cutout (at 0 -15.24) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -3.50012 -8.50392) (end 5.64388 -8.50392) (layer Dwgs.User) (width 0.15))
+  (fp_line (start -3.50012 4.49608) (end -3.50012 -8.50392) (layer Dwgs.User) (width 0.15))
+  (pad 1 smd roundrect (at 0 0 180) (size 9 19) (layers B.Cu B.Mask) (roundrect_rratio 0.063))
+  (pad 1 smd roundrect (at 0 0 180) (size 9 19) (layers F.Cu F.Mask) (roundrect_rratio 0.063))
+)
